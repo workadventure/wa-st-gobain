@@ -1571,6 +1571,43 @@
                  "y":528
                 }, 
                 {
+                 "height":109,
+                 "id":72,
+                 "name":"zone_meeting3bis",
+                 "properties":[
+                        {
+                         "name":"autoClose",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"autoOpen",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"doorVariable",
+                         "type":"string",
+                         "value":"meeting3"
+                        }, 
+                        {
+                         "name":"openTriggerMessage",
+                         "type":"string",
+                         "value":"Appuyer sur Espace pour ouvrir la porte"
+                        }, 
+                        {
+                         "name":"zone",
+                         "type":"string",
+                         "value":"zone_meeting3bis"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":58,
+                 "x":2751.33333333333,
+                 "y":752.333333333333
+                }, 
+                {
                  "height":114,
                  "id":68,
                  "name":"zone_meeting4",
@@ -1606,6 +1643,43 @@
                  "width":59.3333333333335,
                  "x":2334,
                  "y":528
+                }, 
+                {
+                 "height":107.333333333333,
+                 "id":71,
+                 "name":"zone_meeting4bis",
+                 "properties":[
+                        {
+                         "name":"autoClose",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"autoOpen",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"doorVariable",
+                         "type":"string",
+                         "value":"meeting4"
+                        }, 
+                        {
+                         "name":"openTriggerMessage",
+                         "type":"string",
+                         "value":"Appuyer sur Espace pour ouvrir la porte"
+                        }, 
+                        {
+                         "name":"zone",
+                         "type":"string",
+                         "value":"zone_meeting4bis"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":56.6666666666665,
+                 "x":2336,
+                 "y":754
                 }, 
                 {
                  "height":138.666666666667,
@@ -3791,7 +3865,7 @@
          "y":0
         }],
  "nextlayerid":93,
- "nextobjectid":71,
+ "nextobjectid":74,
  "orientation":"orthogonal",
  "properties":[
         {
