@@ -23,6 +23,21 @@ WA.onInit().then(() => {
         WA.room.showLayer("Roof/Roof4");
     });
 
+    WA.room.area.onEnter("courses").subscribe(() => {
+        console.log('onEnter courses');
+        WA.nav.goToRoom("#sessionCourse");
+        WA.ui.modal.openModal({
+            title: "WorkAdventure website",
+            src: 'https://workadventu.re',
+            allow: "fullscreen",
+            allowApi: true,
+            position: "center"
+        });
+    });   
+
+    WA.room.area.onLeave("courses").subscribe(() => {
+        console.log('onLeave courses');
+    });   
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
